@@ -1,0 +1,74 @@
+body{
+    background-color:#DDDDDD;
+    margin: 0px;
+    padding:0px;
+    font-family:Arial, Helvetica, sans-serif;
+    display:flex;
+    flex-direction:column;
+    height:100vh;
+}
+.navBar{
+    background-color:red;
+    height:50px;
+    display:flex;
+    width: 100vw;
+}
+
+.title{
+    font-size: 40px;
+    font-weight: bold;
+    color:white;
+    margin-left: 30px;
+}
+
+.creators{
+    color:white;
+    font-size:12px;
+    margin-right: 10px;
+}
+
+.creator{
+    margin: 1px;
+    font-weight: bold;
+}
+
+.navBar div:last-child {
+    margin-left: auto;
+}
+
+.mainBody{
+    display:flex;
+    flex-direction:row;
+    flex-grow : 1;
+}
+
+.options{
+    width: 40vw;
+    border-right: 5px solid black;
+}
+
+.chartArea{
+    width:60vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chartContainer {
+    margin:10px;
+    height: 60%;
+    width: 80%;
+}
+
+.inputs{
+    margin-left: 10px;
+}
+
+.introtext{
+    font-size:20px;
+    font-weight: bold;
+}
+
+#geldmengenChart{
+    border: 3px solid black;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <title>SNB Geldmengensimulation</title>
+</head>
+<body>
+    <div class="navBar">
+        <div class="title">
+            SNB Simulation
+        </div>
+        <div class="creators">
+            <p class="creator">Roman Frank</p>
+            <p class="creator">Mateja Markovic</p>
+            <p class="creator">Niklas Huter</p>
+        </div>
+    </div>
+    <div class="mainBody">
+        <div class="options">
+            <div class="inputs">
+                <div class="leitzins">
+                    <p class="introtext"> Bestimmen Sie hier den Leitzins der SNB:</p>
+                    <input id="leitzins" type="range" min="-10" max="10" value="0"><label id="leitzinsLabel">0%</label>
+                </div>
+                <br></br>
+                <div class="wertpapiere">
+                    <p class="introtext"> Bestimmen Sie hier, wie viele Wertpapiere die SNB kaufen/verkaufen soll</p>
+                    <input id="wertpapiere" type="range" min="-100000000000" max="100000000000" value="0"><label id="wertpapiereLabel">0.-</label>
+                </div>
+                <br></br>
+                <div class="inflation">
+                    <p class="introtext"> Bestimmen Sie hier, wie viel Inflation Jahr über Jahr herrscht</p>
+                    <input id="inflation" type="range" min="-20" max="100" value="0"><label id="inflationLabel">0%</label>
+                </div>
+            </div>
+        </div>
+        <div class="chartArea">
+            <div class="chartContainer">
+                <canvas id="geldmengenChart"></canvas>
+            </div>
+            
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script src="./App.js"></script> 
+</body>
+</html>
