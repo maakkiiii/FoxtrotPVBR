@@ -1,4 +1,4 @@
-# Foxtrot Project Doku
+# Foxtrot Project Doku (https://foxtrot-pvbr.netlify.app)
 Der Auftrag ist in unserer Gruppe eine Webapp zu erstellen. In dieser Webapp sollen verschiedene Wege aufzeigen wie die SNB Geldmengen steuert. Genaueres dazu finden sie im Pflichtenheft. 
 
 Als erstes mussten wir uns für 3 der vielen möglichen Wege entscheiden. Um uns zu entscheiden, machten wir uns erstmal schlau. Schlussendlich entschieden wir uns für die folgenden drei Wege. 
